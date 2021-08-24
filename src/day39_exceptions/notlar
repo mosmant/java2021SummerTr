@@ -1,0 +1,18 @@
+EXCEPTÝONS 
+
+Ýki tür exception vardýr.
+
+1-) Compile Time Exceptions (checked): kod create edilirken javanýn öngördüðü olasý sorunlara karþý hatanýn altýnýn çizilmesidir.
+	ama her altý kýrmýzý çizilen kod exception deðildir.
+
+2-) Run Time Exceptions : kod run edildiðinde oluþan derleme problem olmayan exceptionlardýr.
+
+Code create edilirken exceptions kullanmak gerekirse
+	a-) Add throws declarations ====> hata oluþtuðunda console a hata ile ilgili mesaj verir.
+	
+	b-) Try/Catch block 		====> hata oluþtuðunda hatanýn yazdýrýlmasý ve handle edilmesini saðlar.
+ 		
+ 		i-) try bloðundan sonra en az 1 adet catch bloðu olmak zorundadýr. 
+ 		1 den fazlada olabilir. aksi urumda CTE verir...!!!
+ 		ii-) try/catch block'ta try sorunsuz çalýþýrsa catch body çalýþmaz.Catch body try body'deki exception durumunda çalýþýr.
+ 		iii-) ayný anda tek catch execute olur.çalýþýr. 
